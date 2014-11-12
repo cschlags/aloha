@@ -1,0 +1,5 @@
+Slick Carousel Changes
+  After looking at the slick documentation I added autoplay values to the .hero-caro script function. At first I ran into the problem of having image descriptions on three images, I fixed this by changing the slidesToShow value to 1, which allowed the slick-center image to be the only image showing a description. There does seem to be a hesitation between the .hero-caro for articles and the .hero-caro for recipes, which is something that may be difficult to fix. The reason I changed the slick carousel was that as a potential site user I would not want to only scroll through the carousel manually, this option allows user's to automatically or manually scroll.
+
+.Container .Big-Container Changes
+  In the magazine source code there is a media query for screen with a max-width of 1280px setting the width of the .container .big-container to 960px. By deleting this media query I was able to properly inline-block the elements.
